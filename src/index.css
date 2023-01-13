@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  position: absolute;
+  height: 140px;
+  width: 200px;
+  background-color: #407398;
+  left: 50%;
+  top: 50%;
+  transform: translate(50%,50%);
+  padding: 20px 10px;
+  box-shadow: 2px 2px 10px rgba(1, 4, 8, 5);
+}
+.container #input_val{
+  height: 32px;
+  width: 140px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.container #btn {
+  height: 40px;
+  width: 120px;
+  color: white;
+  font-size: 20px;
+  background-color: #487eb0;
+  cursor: pointer;
+  border: 1px solid white;
+}
+.container #operation {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
